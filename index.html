@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Performance Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar d-flex justify-content-between align-items-center px-3 py-2">
+        <div>
+            <a href="#" class="text-white me-3">Find a gym</a>
+            <a href="#" class="text-white">About Peak Performance Gym</a>
+        </div>
+        <div>
+            <a href="#" class="text-white me-3">My Account</a>
+            <a href="#" class="text-white me-3">Canada</a>
+            <input type="text" class="search-bar" placeholder="Search">
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#experts">Experts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#reviews">Reviews</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#appointments">View Appointments</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <section id="features" class="bg-black text-white py-5">
+            <div class="text-center mb-4 d-flex align-items-center justify-content-center">
+                <img src="fitness.png" alt="Fitness Logo" height="400" class="me-3">
+                <div class="text-center">
+                    <h1>No Judgement!</h1>
+                    <h1>$10 a Month!</h1>
+                    <h1>Open 24 hours</h1>
+                    <h1>Call 1234-567891</h1>
+                    <button class="btn btn-danger mt-3">Join Now</button>
+                </div>
+                <div class="d-flex flex-column ms-3">
+                    <img src="gym1.jpeg" class="gym-img mb-3" alt="Gym Image 1">
+                    <img src="gym2.png" class="gym-img" alt="Gym Image 2">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <p>Experience the amazing benefits of personalized training designed to help you achieve your fitness goals with expert guidance and tailored workout plans!</p>
+                        <button class="btn btn-danger">Book an Appointment</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="machine1.jpeg" class="img-fluid" alt="Feature Image">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 order-md-2 d-flex align-items-center">
+                    <div>
+                        <p>6 months of free membership for University Students!</p>
+                        <button class="btn btn-danger">View our Memberships</button>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img src="students.jpeg" class="img-fluid" alt="Feature Image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <p>Refer your friends to get free months!</p>
+                        <button class="btn btn-danger">Refer a Friend</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="friends.webp" class="img-fluid" alt="Feature Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="experts" class="mt-5 bg-white text-black py-5">
+            <h2 class="text-center text-black">Choose a coach based on your needs!</h2>
+            <div class="row mb-4">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h5 class="card-title">Thomas</h5>
+                        <p class="card-text">Thomas is a seasoned fitness expert with over a decade of experience in strength training and bodybuilding. Thomas’s personalized workout plans and supportive approach make him a great coach for anyone looking to transform their physique and achieve peak performance.</p>
+                        <button class="btn btn-primary" onclick="scheduleAppointment('Thomas')">Schedule an Appointment</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="man1.png" class="card-img-top" alt="Thomas">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 order-md-2 d-flex align-items-center">
+                    <div>
+                        <h5 class="card-title">Emma</h5>
+                        <p class="card-text">Emma is a dynamic coach with a specialty in high-intensity interval training (HIIT) and cardiovascular fitness. Her energetic and positive demeanor, combined with her expertise in creating engaging and challenging workouts, inspires clients to push their limits and achieve their goals.</p>
+                        <button class="btn btn-primary" onclick="scheduleAppointment('Emma')">Schedule an Appointment</button>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <img src="woman.jpeg" class="card-img-top" alt="Emma">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h5 class="card-title">Nikhil</h5>
+                        <p class="card-text">Nikhil specializes in functional fitness and mobility, bringing a holistic approach to personal training. With a background in sports science and a passion for injury prevention, he focuses on improving overall fitness through dynamic and varied exercises.</p>
+                        <button class="btn btn-primary" onclick="scheduleAppointment('Nikhil')">Schedule an Appointment</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="man2.jpeg" class="card-img-top" alt="Nikhil">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="reviews" class="mt-5 bg-white text-black py-5">
+            <h2 class="text-center text-black">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">The trainers here are amazing! I've achieved all my fitness goals thanks to their guidance and support.</p>
+                            <p>Punctuality: ⭐⭐⭐⭐⭐</p>
+                            <p>Quality of Advice: ⭐⭐⭐⭐⭐</p>
+                            <p>Motivation Provided: ⭐⭐⭐⭐⭐</p>
+                            <p>Results Achieved: ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Peak Performance Gym offers a welcoming environment with excellent facilities. Highly recommended!</p>
+                            <p>Punctuality: ⭐⭐⭐⭐⭐</p>
+                            <p>Quality of Advice: ⭐⭐⭐⭐⭐</p>
+                            <p>Motivation Provided: ⭐⭐⭐⭐⭐</p>
+                            <p>Results Achieved: ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Johnson</h5>
+                            <p class="card-text">I've been training here for a year and have seen amazing results. The staff is friendly and knowledgeable.</p>
+                            <p>Punctuality: ⭐⭐⭐⭐⭐</p>
+                            <p>Quality of Advice: ⭐⭐⭐⭐⭐</p>
+                            <p>Motivation Provided: ⭐⭐⭐⭐⭐</p>
+                            <p>Results Achieved: ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sarah Williams</h5>
+                            <p class="card-text">The trainers are very professional and always on time. They provide great motivation and support.</p>
+                            <p>Punctuality: ⭐⭐⭐⭐⭐</p>
+                            <p>Quality of Advice: ⭐⭐⭐⭐⭐</p>
+                            <p>Motivation Provided: ⭐⭐⭐⭐⭐</p>
+                            <p>Results Achieved: ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Chris Lee</h5>
+                            <p class="card-text">The personalized training plans have helped me stay on track and achieve my fitness goals. Great experience!</p>
+                            <p>Punctuality: ⭐⭐⭐⭐⭐</p>
+                            <p>Quality of Advice: ⭐⭐⭐⭐⭐</p>
+                            <p>Motivation Provided: ⭐⭐⭐⭐⭐</p>
+                            <p>Results Achieved: ⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="appointments" class="mt-5">
+            <h2 class="text-center text-white">Voir ses rendez-vous existant</h2>
+            <div class="list-group">
+                <div class="list-group-item">
+                    <h5 class="mb-1">Rendez-vous avec Thomas</h5>
+                    <p class="mb-1">Date: 10 juin 2024, Heure: 14h00</p>
+                    <small>Lieu: Salle de sport principale</small>
+                </div>
+                <div class="list-group-item">
+                    <h5 class="mb-1">Rendez-vous avec Emma</h5>
+                    <p class="mb-1">Date: 12 juin 2024, Heure: 16h00</p>
+                    <small>Lieu: Salle de sport principale</small>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2 class="text-center text-white">Contact Us</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label text-white">First Name</label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label text-white">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-white">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label text-white">Phone</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="appointmentDate" class="form-label text-white">Select a Date and Time</label>
+                    <input type="datetime-local" class="form-control" id="appointmentDate" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Confirm Appointment</button>
+            </form>
+        </section>
+
+        <section id="confirmation" class="mt-5" style="display: none;">
+            <div class="text-center text-white">
+                <h3>Thank you for choosing <span id="trainerName"></span>!</h3>
+                <p>Your request for an appointment was successful!</p>
+                <p>Thank you for booking an appointment with <span id="trainerName2"></span>.</p>
+                <p>Your booking details including date and time have been sent to <span id="userEmail"></span>.</p>
+                <button class="btn btn-danger" onclick="bookAnotherAppointment()">Book Another Appointment</button>
+            </div>
+        </section>
+    </div>
+
+    <footer class="mt-5 bg-dark text-white text-center p-3">
+        <div class="container">
+            <a href="#" class="text-white me-3">Careers</a>
+            <a href="#" class="text-white me-3">About Peak Performance</a>
+            <a href="#" class="text-white me-3">Privacy Policy</a>
+            <a href="#" class="text-white me-3">Terms and Conditions of Use</a>
+            <a href="#" class="text-white">Customer Service</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
