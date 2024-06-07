@@ -18,35 +18,8 @@ This project is a prototype for a gym website designed to provide users with inf
 - **CSS3**: For styling the web pages.
 - **Bootstrap 5**: For responsive design and layout.
 
-## How to Run the Project Locally
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/Javisen-Pillay/my-gym.git
-    ```
-
-2. Navigate to the project directory:
-    ```sh
-    cd my-gym
-    ```
-
-3. Open `index.html` in your preferred web browser.
-
-## Hosting the Project
-
-To make the website publicly accessible, you can host it using GitHub Pages:
-
-1. Go to your repository on GitHub.
-2. Navigate to `Settings`.
-3. In the `Pages` section, set the source to `main` branch and the root directory.
-4. Save the settings. Your website will be available at `https://javisen-pillay.github.io/my-gym`.
-
 ## Contact
 
 For any questions or feedback, please contact:
 - **Javisen Katherasa Pillay**
 - Email: javisen@example.com
-
-## License
-
-This project is licensed under the MIT License.
