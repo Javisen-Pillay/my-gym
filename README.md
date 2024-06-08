@@ -17,9 +17,3 @@ This project is a prototype for a gym website designed to provide users with inf
 - **HTML5**: For the structure of the web pages.
 - **CSS3**: For styling the web pages.
 - **Bootstrap 5**: For responsive design and layout.
-
-## Contact
-
-For any questions or feedback, please contact:
-- **Javisen Katherasa Pillay**
-- Email: javisen@example.com
